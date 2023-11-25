@@ -1,0 +1,9 @@
+{
+  "events": [
+    { "name": "Testipeli 1", "date": "2023-11-23T00:00:00.000Z" },
+    { "name": "Testipeli 2", "date": "2023-11-16T00:00:00.000Z" },
+    { "name": "Testipeli 3", "date": "2023-11-10T00:00:00.000Z" },
+    { "name": "Testipeli 4", "date": "2023-12-20T00:00:00.000Z" },
+    { "name": "Testipeli 5", "date": "2023-12-14T00:00:00.000Z" }
+  ]
+}

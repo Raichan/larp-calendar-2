@@ -1,0 +1,20 @@
+.home-container {
+  display: flex;
+  margin: 24px 0px;
+}
+
+.calendar-container {
+  width: 66.6666667%;
+}
+
+.react-calendar {
+  width: 100%;
+}
+
+.react-calendar button.react-calendar__tile {
+  border: 1px solid lightgray;
+}
+
+.event-container {
+  width: 33.3333333%;
+}

@@ -1,0 +1,26 @@
+.title {
+  display: flex;
+  gap: 16px;
+  margin: 36px 0px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin: 0px 24px;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+}
+
+.navbar li:last-child {
+  margin-left: auto;
+}
+
+.navbar li a {
+  text-decoration: none;
+}

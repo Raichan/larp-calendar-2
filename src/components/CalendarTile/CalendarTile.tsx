@@ -3,9 +3,9 @@ import { isSameDay } from "date-fns";
 import { DbEvent } from "@customTypes/Event";
 
 export const CalendarTile = (date: Date, onclick: (...args: any[]) => any) => {
-  const events: DbEvent[] = db.events;
+  const events: DbEvent[] = db.events as DbEvent[];
   const eventsToday: DbEvent[] = events.filter((e) => {
-    return isSameDay(new Date(e.date), date);
+    return e.startDate && isSameDay(new Date(e.startDate), date);
   });
   return (
     <div>
@@ -16,9 +16,9 @@ export const CalendarTile = (date: Date, onclick: (...args: any[]) => any) => {
             e.preventDefault();
             onclick(event);
           }}
-          key={event.name}
+          key={event.eventName}
         >
-          {event.name}
+          {event.eventName}
         </a>
       ))}
     </div>

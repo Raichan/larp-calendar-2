@@ -1,4 +1,21 @@
 export type DbEvent = {
-  name: string;
-  date: string;
+  eventName?: string;
+  eventType?: string;
+  startDate?: string;
+  endDate?: string;
+  signupStart?: string;
+  signupEnd?: string;
+  locationArea?: string;
+  locationName?: string;
+  iconUrl?: string;
+  genre?: string[];
+  cost?: string;
+  ageLimit?: string;
+  beginnerFriendly?: boolean;
+  eventFull?: boolean;
+  invitationOnly?: boolean;
+  languageFree?: boolean;
+  storyDescription?: string;
+  infoDescription?: string;
+  links?: string[];
 };

@@ -1,10 +1,89 @@
 {
   "events": [
-    { "name": "Testipeli 1", "date": "2023-11-23T00:00:00.000Z" },
-    { "name": "Testipeli 2", "date": "2023-11-16T00:00:00.000Z" },
-    { "name": "Testipeli 3", "date": "2023-11-10T00:00:00.000Z" },
-    { "name": "Testipeli 4", "date": "2023-12-20T00:00:00.000Z" },
-    { "name": "Testipeli 5", "date": "2023-12-14T00:00:00.000Z" },
-    { "name": "Testipeli 6", "date": "2023-11-23T00:00:00.000Z" }
+    {
+      "eventName": "X-Con",
+      "eventType": "larps",
+      "startDate": "2023-11-24T00:00:00.000Z",
+      "endDate": "2023-11-26T00:00:00.000Z",
+      "locationArea": "south",
+      "locationName": "Otavan Opisto",
+      "cost": "75",
+      "ageLimit": 18,
+      "infoDescription": "X-Conin tehtävänä on tuoda yhteen larppien järjestäjät ympäri Suomea antaen mahdollisuuden tutustumiseen, yhteistyökumppaneiden löytämiseen sekä omien kokemusten jakamiseen. X-Con sopii loistavasti myös niille, jotka vasta suunnittelevat ensimmäisen larppinsa järjestämistä. Tapahtuman ohjelma koostuu eri aiheita käsittelevistä luennoista, työpajoista, osallistavista keskustelupiireistä ja vapaamuotoisemmasta ohjelmasta.",
+      "links": ["https://x-con.net/"]
+    },
+    {
+      "eventName": "Vallat ja väet: Talvi",
+      "eventType": "larps",
+      "startDate": "2023-12-08T00:00:00.000Z",
+      "endDate": "2023-12-09T00:00:00.000Z",
+      "locationArea": "south",
+      "locationName": "Pääkaupunkiseutu",
+      "iconUrl": "https://drive.google.com/file/d/14c5pNGFTZlEi0-92SWMgrN53tkizJe-q/view",
+      "genre": ["city", "newweird", "drama"],
+      "infoDescription": "Vallat ja väet -kampanjan neljäs ja viimeinen peli.\n\nVallat ja väet on liveroolipelikampanja ihmisten parissa elävistä vaihdokkaista.\n\nNiin kauan kuin on ollut ihmisiä on ollut myös vaihdokkaita, ihmislasten tilalle vaihdettuja väen lapsia. Ihmiskunnan levitessä ja yhteisöjen kasvaessa myös vaihdokkaiden määrä kasvoi, ja niiden oli yhä helpompi elää ihmisten keskuudessa tulematta paljastetuiksi. Ajan myötä ne alkoivat myös lisääntyä keskenään ja ihmisten kanssa. Nykypäivänä aitoja vaihdokkaita, vauvana vaihdettuja, on harvassa, ja sekaveristen kosketus väkiluontoonsa heikkenee sukupolvi sukupolvelta. Vaihdokkaita on vähemmän kuin koskaan, ja aidot vaihdokkaat ovat lähes kaikki kuolleet jo kauan sitten. Onko vaihdokkaiden aika ohi?\n\nIhmisten keskuudessa elävillä vaihdokkailla on oma kulttuurinsa, omat tapansa ja lakinsa. Vaihdokkaat ovat jakautuneet neljään väkeen, joista kukin on vallassa yhden vuodenajan; kevättä hallitsee vedenväki, kesää metsänväki, syksyä maanväki ja talvea taivaanväki. Valta vaihtuu vuodenajan vaihtuessa, tanssin kautta.\n\nVallat ja väet seuraa vaihdokkaiden elämää vuoden ajan. Pelit sijoittuvat vuodenaikojen vaihteisiin, lähelle kevätpäiväntasausta, kesäpäivänseisausta, syyspäiväntasausta ja talvipäivänseisausta, jolloin vaihdokkaat kokoontuvat vuodenaikakäräjille. Jokainen pelikerta päättyy vallan vaihtumiseen väeltä toiselle.\n\nVallat ja väet on ennen kaikkea tarina luopumisesta, mutta myös valtasuhteista, perheistä, vahvoista tunteista, velvollisuudesta ja hiipumisesta, kuolemastakin. Ja vaihdokkaista.",
+      "links": ["http://www.lasipallo.com/vallatjavaet/"]
+    },
+    {
+      "eventName": "Tyrmiä ja Työkkäreitä 3 - Kiltojen Kosto",
+      "eventType": "larps",
+      "startDate": "2024-01-13T00:00:00.000Z",
+      "signupStart": "2023-09-01T00:00:00.000Z",
+      "signupEnd": "2023-09-30T00:00:00.000Z",
+      "locationArea": "south",
+      "locationName": "Joensuu",
+      "genre": ["fantasy", "humour"],
+      "cost": "15",
+      "ageLimit": 18,
+      "beginnerFriendly": true,
+      "storyDescription": "\"Bardien pikakurssille tai soturien peruskoulutukseen? Vai olisiko ratkaisu kenties kevyttyrmäyrittäjyys? Päätehtävällekö? Noh noh, katsotaan ensin miten tuo haastattelu menee...\"",
+      "infoDescription": "Tyrmät ja Työkkärit on larppi jossa yhteen iskeytyvät perinteiset D&D-kliseet sekä moderni työnhakuhelvetti. Seikkailemiseen ei riitä enää miekka, terveen järjen puute ja epämääräinen velho baarissa, vaan Kansaneläkekilta ja Työ - ja elinkeinokilta vahtivat että kaikki sujuu oppikirjan mukaan. Kiltojen Kostossa joukko toistaitoisia, pitkään seikkailumarkkinoilta poissa olleita (anti)sankareita joutuu pakotettuun rekrytilaisuuteen ja kiltojen suurennuslasin alle. Peli on kylmää kun pyritään välttämään karenssia ja saamaan rahakkain seikkailu haltuun\n\nVaikka kyseessä onkin kolmas T&T, peli on vain temaattinen eikä tarinallinen jatko-osa eli larppi sopii erinomaisesti aloittelijoille sekä ensikertalaisille.\n\nLisää tietoa sekä ilmoittautumisohjeet löytyvät pelin Facebook-tapahtumasta linkin takaa.",
+      "links": ["https://www.facebook.com/events/805478837778095"]
+    },
+    {
+      "eventName": "Varjot Ajassa (13. pelautus)",
+      "eventType": "larps",
+      "startDate": "2024-01-19T00:00:00.000Z",
+      "endDate": "2024-01-20T00:00:00.000Z",
+      "signupStart": "2023-09-17T00:00:00.000Z",
+      "signupEnd": "2023-10-01T00:00:00.000Z",
+      "locationArea": "south",
+      "locationName": "Helsinki",
+      "genre": ["scifi", "drama"],
+      "cost": "70",
+      "ageLimit": 18,
+      "storyDescription": "Tarina kuolemattomuudesta, perheestä, rakkaudesta ja vaikeista valinnoista. Varjot ajassa kertoo ihmisistä, jotka pystyvät matkustamaan ajassa ja paikassa ja muovaamaan maailmaa haluamakseen vain palatakseen aina lopulta takaisin lähtöpisteeseen. Syklin vaihtuessa kaikki saavutettu haihtuu savuna ilmaan ja jää elämään vain hahmojen muistoihin. Ainoa pysyvä asia pelin hahmoille ovat toiset matkustajat, ja vuosisatojen jälkeen he ovat kaikki sidottuja toisiinsa intohimon, vihan, rakkauden, kunnioituksen, katkeruuden, luottamuksen ja petosten sitein. Tavallisille ihmisille matkustajat ovat vain varjoja ajassa.",
+      "infoDescription": "Varjot Ajassa on pieni ja intensiivinen ihmissuhdedraama kymmenelle pelaajalle. Kyseessä ei ole kampanja vaan sama peli on pelattu jo useaan kertaan aiemmin. Peli kertoo kuolemattomasta perheestä ja sijoittuu nollaukseksi kutsuttuun ajan hetkeen, jossa matkustajat ovat pakotettuja kohtaamaan toisensa aina 68 vuoden välein. Loputon kehä uudelleen alusta alkavia syklejä on muovannut kutakin matkustajaa omalla tavallaan ja vääjäämättä aika on murentanut niitä perustuksia, joiden päälle perhe on rakentunut. Ristiriidat ja vanhat kaunat nostavat päätään kun perhe joutuu kohtaamaan toisensa ja omat menneisyyden virheensä yhä uudelleen ja uudelleen aina syklien vaihtuessa.\n\nPelissä on paljon rankkoja teemoja mm. hahmon oma kuolema, läheisen hahmon kuolema, ihanteista, arvoista tai tärkeistä ihmisistä luopuminen, yksinäisyys, ulkopuolisuus ja petetyksi tuleminen. Näiden teemojen todennäköisyydessä ja voimakkuudessa on jonkun verran hahmokohtaista vaihtelua, mutta koska viime kädessä jokainen pelaaja tekee valintoja pelin aikana, joihin pelinjohto ei voi vaikuttaa, kuka tahansa pelin hahmoista saattaa joutua käsittelemään näitä teemoja pelin aikana.\n\nPelissä tavoitellaan intiimiä ja intensiivistä tunnelmaa. Pelin juonet ja teemat purkautuvat pelin edetessä hahmojen käymien keskustelujen myötä. Pelin sisältö muodostuu kaikkien hahmojen yhteisistä, pienemmissä ryhmissä sekä kahden kesken käytävistä keskusteluista ja välienselvittelyistä. Pelin setupissa on vahvoja scifielementtejä, mutta näiden puimiseen ei juurikaan jää aikaa vaan pääpaino on erittäin vahvasti ihmissuhdedraamassa.",
+      "links": [
+        "https://varjotajassa.weebly.com/",
+        "https://www.facebook.com/groups/533181570940678"
+      ]
+    },
+    {
+      "eventName": "Solmukohta 2024",
+      "eventType": "conventions",
+      "startDate": "2024-04-11T00:00:00.000Z",
+      "endDate": "2024-04-14T00:00:00.000Z",
+      "signupStart": "2023-11-03T00:00:00.000Z",
+      "signupEnd": "2023-01-31T00:00:00.000Z",
+      "locationArea": "south",
+      "locationName": "Tampere",
+      "cost": "250-550",
+      "ageLimit": 18,
+      "beginnerFriendly": true,
+      "infoDescription": "Solmukohta is a Nordic role-playing game conference and community event. Held annually in the Nordic countries since 1997,the name of the event is  Solmukohta, Knutepunkt, Knutpunkt, or Knudepunkt depending on the country where it's held. It has been a vital institution in fostering a Nordic role-playing identity, and in establishing the concept of “Nordic larp” as a unique approach. Originating as a purely larp event, the conference has since embraced role-playing games more generally. While today the emphasis is still on larp, Solmukohta is also an event for workshops, progressive new ideas, community building and academic research around larp.",
+      "links": ["https://solmukohta.eu"]
+    },
+    {
+      "eventName": "Aldens (6. peli)",
+      "eventType": "larps",
+      "startDate": "2024-05-10T00:00:00.000Z",
+      "endDate": "2024-05-12T00:00:00.000Z",
+      "locationArea": "south",
+      "locationName": "Leiriniemi",
+      "genre": ["drama"],
+      "eventFull": true,
+      "infoDescription": "Aldens-pelisarjan 6. peli (osallistujia n. 20 pelaajahahmoa + n. 10 avustajahahmoa). Ei uusia hahmoja"
+    }
   ]
 }

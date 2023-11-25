@@ -19,3 +19,12 @@
 .event-container {
   width: 33.3333333%;
 }
+
+.create-form label {
+  display: block;
+  font-weight: 600;
+}
+
+.create-form .form-checkboxes label {
+  display: inline;
+}

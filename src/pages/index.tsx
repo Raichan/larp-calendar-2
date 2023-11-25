@@ -9,7 +9,6 @@ export default function Home() {
   const [event, setEvent] = useState({});
 
   const showEvent = (event: any) => {
-    console.log(event);
     setEvent(event);
   };
 

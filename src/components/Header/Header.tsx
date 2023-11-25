@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "./header.css";
-import Logo from "../../assets/larpfi_logo.jpg";
+import Logo from "@assets/larpfi_logo.jpg";
 
 export const Header = () => {
   return (

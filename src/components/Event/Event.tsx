@@ -1,10 +1,9 @@
 import React from "react";
-import Link from "next/link";
-import "./header.css";
 
-interface Props {
+/* TODO use the full interface from the old calendar
+  interface Props {
   id: number;
-  eventName: string;
+  name: string;
   eventType: string;
   startDate: string;
   endDate: string;
@@ -27,12 +26,24 @@ interface Props {
   organizerEmail: string;
   links: string[];
   status: string;
+}*/
+
+interface Props {
+  name?: string;
+  date?: string;
 }
 
-export const Event = ({ id, eventName, eventType }: Props) => {
+export const Event = (event: Props) => {
   return (
     <div>
-      <h2></h2>
+      {event.name ? (
+        <div>
+          <h2>{event.name}</h2>
+          {event.date && <div>{new Date(event.date).toDateString()}</div>}
+        </div>
+      ) : (
+        <div>Valitse tapahtuma klikkaamalla tapahtuman nimeä</div>
+      )}
     </div>
   );
 };
